@@ -1,10 +1,9 @@
 import React from 'react';
-import { Box, Heading, Flex, Text, useColorMode, IconButton, Button, useDisclosure, Divider, Spacer, Kbd } from '@chakra-ui/react';
+import { Box, Heading, Flex, useColorMode, IconButton, Button, useDisclosure, Spacer } from '@chakra-ui/react';
 import {
     Modal,
     ModalOverlay,
     ModalContent,
-    ModalBody,
 } from "@chakra-ui/react";
 import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 
