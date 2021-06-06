@@ -62,4 +62,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deploy By Vercel
 
-<a target='__blank' href='https://vercel.com/'><img src='https://cdn.worldvectorlogo.com/logos/vercel.svg' /></a>
+<a target='__blank' href='https://vercel.com/'><img src='https://avatars.githubusercontent.com/u/14985020?s=280&v=4' /></a>
