@@ -47,8 +47,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Usage
 
-## Development
-
 ```
  Before clone, please check your version of node, minimum requirment is up v13. :)
 
