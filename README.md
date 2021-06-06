@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## List library
 
-- react use sound(https://www.npmjs.com/package/use-sound)
-- react reveal for animation (https://www.react-reveal.com/)
-- chakra ui (https://chakra-ui.com/)
+- [react use sound](https://www.npmjs.com/package/use-sound)
+- [react reveal for animation ](https://www.react-reveal.com/)
+- [chakra ui ](https://chakra-ui.com/)
 
 ## Directory
 
@@ -47,7 +47,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Usage
 
-#### development
+## Development
 
 ```
  Before clone, please check your version of node, minimum requirment is up v13. :)
@@ -56,10 +56,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  2. yarn install
  3. yarn start
 
-
 > The application is ready on http://localhost:3000
+
+```
 
 ## Deploy By Vercel
 
 <a target='__blank' href='https://vercel.com/'><img src='https://cdn.worldvectorlogo.com/logos/vercel.svg' /></a>
-```
