@@ -17,7 +17,7 @@ export default function Beranda(props) {
                         </Box>
                     </Fade>
                     <Fade duration={500} distance="30px" delay={100} fraction={0.4} bottom>
-                        <Box>
+                        <Box as="section">
                             <Grid
                                 h="full"
                                 width="full"
@@ -27,12 +27,12 @@ export default function Beranda(props) {
                                 gap={{ base: 1, md: 4 }}
                             >
                                 <GridItem colSpan={{ base: 5, md: 2, lg: 2 }} width="full" height="full">
-                                    <Text letterSpacing={"-.0.01rem"} lineHeight={"-.0.001rem"} textAlign={{ base: "justify" }} fontSize={{ base: "xs", md: "xs", lg: "sm" }}>
+                                    <Text letterSpacing={"-.0.01rem"} lineHeight={"-.0.001rem"} textAlign="justify" fontSize={{ base: "xs", md: "xs", lg: "sm" }}>
                                     This website is used for web 3 practicum courses on react js. Designed to use chakra ui as a library in it and use several additional libraries such as animation and dark mode.
                                     </Text>
                                 </GridItem>
                                 <GridItem colSpan={{ base: 5, md: 2, lg: 2 }} width="full">
-                                    <Text letterSpacing={"-.0.01rem"} lineHeight={"-.0.001rem"} textAlign={{ base: "justify" }} fontSize={{ base: "xs", md: "xs", lg: "sm" }}>
+                                    <Text letterSpacing={"-.0.01rem"} lineHeight={"-.0.001rem"} textAlign="justify" fontSize={{ base: "xs", md: "xs", lg: "sm" }}>
                                         This website can be modified at will, and various content can be added if necessary. If you want to be migrated into typescript are also welcome, hopefully useful.
                                     </Text>
                                 </GridItem>

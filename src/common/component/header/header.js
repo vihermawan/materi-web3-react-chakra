@@ -40,31 +40,32 @@ function Header(props) {
                 <Heading as="h1" size="md" letterSpacing={"-.0.01rem"} fontSize={{ base: "sm", md: "md", sm: "md", lg: "md" }}>
                     Portofolio
                 </Heading>
+                <Box
+                    display={{ base: "none", md: "flex" }}
+                    mt={{ base: 4, md: 0 }}
+                    pl="12"
+                >
+                    <Button 
+                        mt={{ base: 5, md: 0 }} 
+                        mr={6} 
+                        display="block" 
+                        size="xs" 
+                        backgroundColor="transparent" 
+                    >
+                    <Link to="/">Beranda</Link> 
+                    </Button>
+                    <Button 
+                        mt={{ base: 5, md: 0 }} 
+                        mr={6} 
+                        display="block" 
+                        size="xs" 
+                        backgroundColor="transparent" 
+                    >
+                    <Link to="/portofolio">Portofolio</Link> 
+                    </Button>
+                </Box>
             </Flex>
-            <Spacer />
-            <Box
-                display={{ base: "none", md: "flex" }}
-                mt={{ base: 4, md: 0 }}
-            >
-              <Button 
-                    mt={{ base: 5, md: 0 }} 
-                    mr={6} 
-                    display="block" 
-                    size="xs" 
-                    backgroundColor="transparent" 
-                >
-                  <Link to="/">Beranda</Link> 
-                </Button>
-                <Button 
-                    mt={{ base: 5, md: 0 }} 
-                    mr={6} 
-                    display="block" 
-                    size="xs" 
-                    backgroundColor="transparent" 
-                >
-                   <Link to="/portofolio">Portofolio</Link> 
-                </Button>
-            </Box>
+           
             <Spacer />
             <Box
                 display={{ base: "none", md: "flex" }}
